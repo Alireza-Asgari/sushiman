@@ -288,10 +288,12 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
-
+  .trending-drinks .trending__content {
+    width: 100%;
+  }
   .trending__image {
     width: 100%;
     background-size: cover;
